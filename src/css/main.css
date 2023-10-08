@@ -1,0 +1,22 @@
+.main__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.container__animales {
+  padding: 2rem 0.5rem;
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.image__animal {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}

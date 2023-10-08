@@ -1,0 +1,48 @@
+/* estilos para header */
+.header {
+  /* position: fixed; */
+  background-color: #1fbbe0;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.navbar__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.navbar__title h1 {
+  height: fit-content;
+}
+
+.huella {
+  width: 30px;
+  height: 30px;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+.navbar__links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.navbar__links li a {
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.navbar__links li a:active {
+  color: #3e2aea;
+}
